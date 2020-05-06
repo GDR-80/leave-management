@@ -34,7 +34,7 @@
                         </li>
                         @if (SignInManager.IsSignedIn(User))
                         {
-                            if (User.IsInRole("admin"))
+                            if (User.IsInRole("Administrator"))
                             {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
