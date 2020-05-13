@@ -25,11 +25,11 @@ namespace leave_management.Data.Migrations
 
             migrationBuilder.RenameTable(
                 name: "LeaveHistory",
-                newName: "LeaveHistories");
+                newName: "LeaveRequests");
 
             migrationBuilder.RenameIndex(
                 name: "IX_LeaveHistory_RequestingEmployeeId",
-                table: "LeaveHistories",
+                table: "LeaveRequests",
                 newName: "IX_LeaveHistories_RequestingEmployeeId");
 
             migrationBuilder.RenameIndex(
